@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="eu">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Hipotesi Kontrastea | ZURE GRADU AMAIERAKO LANERAKO TREBETASUNAK: Estatistika Praktikoa eta SPSS </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Daniel Losada" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>$exe.options.atools.translator=true</script></head>
+<body class="exe-web-site exe-search-bar exe-auto-math exe-atools" id="exe-node-25"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltatu nabigazioa</a></p>
+<header id="header"  style="background-image: url(06_HEFA_Txuria.png); background-repeat: no-repeat;"><div id="headerContent">ZURE GRADU AMAIERAKO LANERAKO TREBETASUNAK: Estatistika Praktikoa eta SPSS</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Zure GRALa trebetasunak</a></li>
+   <li><a href="sarrera.html" class="no-ch">Sarrera</a></li>
+   <li><a href="spss_maneiua.html" class="daddy">SPSS MANEIUA</a>
+   <ul class="other-section">
+      <li><a href="aldagaiak_sortu.html" class="no-ch">Aldagaiak sortu</a></li>
+      <li><a href="kasuak_sartu.html" class="no-ch">Kasuak sartu</a></li>
+      <li><a href="aldagaiak_birkodifikatu.html" class="no-ch">Aldagaiak birkodifikatu</a></li>
+      <li><a href="kasuak_ordenatu.html" class="no-ch">Kasuak ordenatu</a></li>
+      <li><a href="fitxategia_zatikatu.html" class="no-ch">Fitxategia zatikatu</a></li>
+   </ul>
+   </li>
+   <li><a href="estatistika_deskribatzailea.html" class="daddy">ESTATISTIKA DESKRIBATZAILEA</a>
+   <ul class="other-section">
+      <li><a href="aldagai_bakarreko_estadistika_deskribatzailea.html" class="daddy">ALDAGAI BAKARREKO ESTADISTIKA DESKRIBATZAILEA</a>
+      <ul class="other-section">
+         <li><a href="maiztasun_taulak.html" class="no-ch">Maiztasun taulak</a></li>
+         <li><a href="grafikoak.html" class="no-ch">Grafikoak</a></li>
+         <li><a href="aldagai_bakarreko_estatistiko_deskribatzaileak.html" class="no-ch">Aldagai bakarreko estatistiko deskribatzaileak</a></li>
+      </ul>
+      </li>
+      <li><a href="bi_aldagaitarako_estatistika_deskribatzailea.html" class="daddy">BI ALDAGAITARAKO ESTATISTIKA DESKRIBATZAILEA</a>
+      <ul class="other-section">
+         <li><a href="kontingentzia_taulak.html" class="no-ch">Kontingentzia taulak</a></li>
+         <li><a href="taula_pertsonalizatuak.html" class="no-ch">Taula pertsonalizatuak</a></li>
+         <li><a href="erregresioa.html" class="no-ch">Erregresioa</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="estatistika_inferentziala.html" class="current-page-parent daddy">ESTATISTIKA INFERENTZIALA</a>
+   <ul>
+      <li><a href="normaltasuna_eta_doikuntzaren_egokitasuna.html" class="no-ch">Normaltasuna eta doikuntzaren egokitasuna</a></li>
+      <li><a href="konfidantzatarteak.html" class="no-ch">Konfidantza-tarteak</a></li>
+      <li id="active"><a href="hipotesi_kontrastea.html" class="active no-ch">Hipotesi Kontrastea</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="konfidantzatarteak.html" class="prev"><span><span>&laquo; </span>Aurrekoa</span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Hipotesi Kontrastea</h1></header>
+<article class="iDevice_wrapper preknowledgeIdevice em_iDevice em_iDevice_preknowledge" id="id42">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Hipotesi-kontrastearen planteamendua</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta42_147_2" class="block iDevice_content">
+<p style="text-align: justify;"><strong>Estatistika inferentzialaren muina hipotesi-kontrastearen planteamenduan datza</strong>. Teknika honek populazio baten inguruko hipotesiak formulatu eta datu lagin baten bidez horiek egiaztatzeko aukera ematen du. Horrela, hipotesi nulua (H₀) eta hipotesi alternatiboa (H₁) ezartzen dira, eta laginaren informazioa erabiliz, hipotesi horiek onartu edo baztertzeko erabakiak hartzen dira. Prozesu honek erabakiak hartzeko ziurgabetasuna murrizten du, eta fenomeno estatistikoen ulermena hobetzen du.</p>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<p data-start="0" data-end="139" style="text-align: justify;">Hona hemen urratsak modu egituratuan eta argian:</p>
+<ol data-start="141" data-end="1371" style="text-align: justify;">
+<li data-start="141" data-end="365">
+<p data-start="144" data-end="171"><strong data-start="144" data-end="170">Hipotesiak formulatzea</strong>:</p>
+<ul data-start="175" data-end="365">
+<li data-start="175" data-end="267"><strong data-start="177" data-end="200">Hipotesi nulua (H₀)</strong>: Aldaketarik edo efekturik ez dagoela adierazten duen adierazpena.</li>
+<li data-start="271" data-end="365"><strong data-start="273" data-end="303">Hipotesi alternatiboa (H₁)</strong>: Aldaketa edo efektu bat dagoela adierazten duen adierazpena.</li>
+</ul>
+</li>
+<li data-start="367" data-end="537">
+<p data-start="370" data-end="404"><strong data-start="370" data-end="403">Konfiantza-maila (α) ezartzea</strong>:</p>
+<ul data-start="408" data-end="537">
+<li data-start="408" data-end="537">Konfiantza-maila, α, errore-tasa onargarria da, eta maiztasun hauetako balioak hartzen ditu:
+<ul data-start="508" data-end="537">
+<li data-start="508" data-end="525">0,05 (ohikoena)</li>
+<li data-start="531" data-end="537">0,01</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-start="539" data-end="667">
+<p data-start="542" data-end="569"><strong data-start="542" data-end="568">Baldintzak egiaztatzea</strong>:</p>
+<ul data-start="573" data-end="667">
+<li data-start="573" data-end="667">Kontraste estatistikoa aplikatzeko beharrezkoak diren baldintzak betetzen direla ziurtatzea.</li>
+</ul>
+</li>
+<li data-start="669" data-end="835">
+<p data-start="672" data-end="722"><strong data-start="672" data-end="721">Estatistikoa kalkulatzea eta p-balioa lortzea</strong>:</p>
+<ul data-start="726" data-end="835">
+<li data-start="726" data-end="775">Datuen arabera, estatistiko egokia kalkulatzea.</li>
+<li data-start="779" data-end="835">Estatistiko horren p-balioa (probabilitatea) zehaztea.</li>
+</ul>
+</li>
+<li data-start="837" data-end="1371">
+<p data-start="840" data-end="893"><strong data-start="840" data-end="892">p-balioa α-rekin alderatzea eta erabakia hartzea</strong>:</p>
+<ul data-start="897" data-end="1371">
+<li data-start="897" data-end="1234"><strong data-start="899" data-end="908">p &lt; α</strong>: Hipotesi nulua (H₀) baztertzen da, eta hipotesi alternatiboa (H₁) onartzen da.
+<ul data-start="994" data-end="1234">
+<li data-start="994" data-end="1075"><strong data-start="996" data-end="1011">p &lt; 0,001 (</strong>*):** Emaitza guztiz esanguratsua da hipotesi nulua baztertzeko.</li>
+<li data-start="1081" data-end="1157"><strong data-start="1083" data-end="1097">p &lt; 0,01 (</strong>):** Emaitza oso esanguratsua da hipotesi nulua baztertzeko.</li>
+<li data-start="1163" data-end="1234"><strong data-start="1165" data-end="1182">p &lt; 0,05 (*):</strong> Emaitza esanguratsua da hipotesi nulua baztertzeko.</li>
+</ul>
+</li>
+<li data-start="1238" data-end="1371"><strong data-start="1240" data-end="1249">p &gt; α</strong>: Hipotesi nulua (H₀) ezin da baztertu.
+<ul data-start="1294" data-end="1371">
+<li data-start="1294" data-end="1371"><strong data-start="1296" data-end="1309">p &gt; 0,05:</strong> Ez dago ebidentzia estatistikorik hipotesi nulua baztertzeko.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<p></p>
+</div>
+</div>
+</div>
+<div class="exe-col exe-col-2">
+<p data-start="0" data-end="88">hipotesi-kontrastearen prozesua ulertzeko, adibide praktiko bat aurkezten dizut:</p>
+<p data-start="90" data-end="103"><strong data-start="90" data-end="103">Adibidea:</strong></p>
+<p data-start="105" data-end="218"><em data-start="105" data-end="117">Hipotesia:</em> Ikasle talde batek, teknika berri bat erabiliz, batez besteko nota altuagoa lortzen duela uste dugu.</p>
+<ol data-start="220" data-end="1335">
+<li data-start="220" data-end="492">
+<p data-start="223" data-end="250"><strong data-start="223" data-end="250">Hipotesiak formulatzea:</strong></p>
+<ul data-start="254" data-end="492">
+<li data-start="254" data-end="380"><strong data-start="256" data-end="280">Hipotesi nulua (H₀):</strong> Teknika berria erabiliz, ikasleen batez besteko nota ez da aldatzen; hots, batez besteko nota 5 da.</li>
+<li data-start="384" data-end="492"><strong data-start="386" data-end="417">Hipotesi alternatiboa (H₁):</strong> Teknika berria erabiliz, ikasleen batez besteko nota 5 baino handiagoa da.</li>
+</ul>
+</li>
+<li data-start="494" data-end="595">
+<p data-start="497" data-end="531"><strong data-start="497" data-end="531">Konfiantza-maila (α) ezartzea:</strong></p>
+<ul data-start="535" data-end="595">
+<li data-start="535" data-end="595">Aukeratzen dugu α = 0,05, hau da, %95eko konfiantza-maila.</li>
+</ul>
+</li>
+<li data-start="597" data-end="746">
+<p data-start="600" data-end="627"><strong data-start="600" data-end="627">Baldintzak egiaztatzea:</strong></p>
+<ul data-start="631" data-end="746">
+<li data-start="631" data-end="678">Laginketa ausazkoa izan dela ziurtatzen dugu.</li>
+<li data-start="682" data-end="746">Datuak banaketa normal bat jarraitzen dutela egiaztatzen dugu.</li>
+</ul>
+</li>
+<li data-start="748" data-end="1011">
+<p data-start="751" data-end="801"><strong data-start="751" data-end="801">Estatistikoa kalkulatzea eta p-balioa lortzea:</strong></p>
+<ul data-start="805" data-end="1011">
+<li data-start="805" data-end="916">Laginketa egin ondoren, ikasleen batez besteko nota 5,5 dela eta desbideratze estandarra 1 dela aurkitu dugu.</li>
+<li data-start="920" data-end="1011">Estatistiko egokia kalkulatzen dugu (adibidez, t-estatistikoa) eta p-balioa lortzen dugu.</li>
+</ul>
+</li>
+<li data-start="1013" data-end="1335">
+<p data-start="1016" data-end="1069"><strong data-start="1016" data-end="1069">p-balioa α-rekin alderatzea eta erabakia hartzea:</strong></p>
+<ul data-start="1073" data-end="1335">
+<li data-start="1073" data-end="1112">Demagun lortutako p-balioa 0,03 dela.</li>
+<li data-start="1116" data-end="1226">p &lt; α (0,03 &lt; 0,05) denez, hipotesi nulua (H₀) baztertzen dugu eta hipotesi alternatiboa (H₁) onartzen dugu.</li>
+<li data-start="1230" data-end="1335">Beraz, ondorioztatzen dugu teknika berria erabiliz, ikasleen batez besteko nota 5 baino handiagoa dela.</li>
+</ul>
+</li>
+</ol>
+<p data-start="1337" data-end="1447">Adibide honek hipotesi-kontrastearen urratsak erakusten ditu, hipotesiak formulatzetik erabakia hartzera arte.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Ondoko lizentziak babestua</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons: aitortu-PartekatuBerdin 4.0 Lizentzia</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="konfidantzatarteak.html" class="prev"><span><span>&laquo; </span>Aurrekoa</span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>eXeLearning-ekin egina<span> (Leiho berria)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
