@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="eu">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Estadistiko Batzuk | ZURE GRADU AMAIERAKO LANERAKO TREBETASUNAK: Estatistika Praktikoa eta SPSS </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Daniel Losada" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>$exe.options.atools.translator=true</script></head>
+<body class="exe-web-site exe-search-bar exe-auto-math exe-atools" id="exe-node-29"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltatu nabigazioa</a></p>
+<header id="header"  style="background-image: url(06_HEFA_Txuria.png); background-repeat: no-repeat;"><div id="headerContent">ZURE GRADU AMAIERAKO LANERAKO TREBETASUNAK: Estatistika Praktikoa eta SPSS</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Zure GRALa trebetasunak</a></li>
+   <li><a href="sarrera.html" class="no-ch">Sarrera</a></li>
+   <li><a href="spss_maneiua.html" class="daddy">SPSS MANEIUA</a>
+   <ul class="other-section">
+      <li><a href="aldagaiak_sortu.html" class="no-ch">Aldagaiak sortu</a></li>
+      <li><a href="kasuak_sartu.html" class="no-ch">Kasuak sartu</a></li>
+      <li><a href="aldagaiak_birkodifikatu.html" class="no-ch">Aldagaiak birkodifikatu</a></li>
+      <li><a href="kasuak_ordenatu.html" class="no-ch">Kasuak ordenatu</a></li>
+      <li><a href="fitxategia_zatikatu.html" class="no-ch">Fitxategia zatikatu</a></li>
+   </ul>
+   </li>
+   <li><a href="estatistika_deskribatzailea.html" class="daddy">ESTATISTIKA DESKRIBATZAILEA</a>
+   <ul class="other-section">
+      <li><a href="aldagai_bakarreko_estadistika_deskribatzailea.html" class="daddy">ALDAGAI BAKARREKO ESTADISTIKA DESKRIBATZAILEA</a>
+      <ul class="other-section">
+         <li><a href="maiztasun_taulak.html" class="no-ch">Maiztasun taulak</a></li>
+         <li><a href="grafikoak.html" class="no-ch">Grafikoak</a></li>
+         <li><a href="aldagai_bakarreko_estatistiko_deskribatzaileak.html" class="no-ch">Aldagai bakarreko estatistiko deskribatzaileak</a></li>
+      </ul>
+      </li>
+      <li><a href="bi_aldagaitarako_estatistika_deskribatzailea.html" class="daddy">BI ALDAGAITARAKO ESTATISTIKA DESKRIBATZAILEA</a>
+      <ul class="other-section">
+         <li><a href="kontingentzia_taulak.html" class="no-ch">Kontingentzia taulak</a></li>
+         <li><a href="taula_pertsonalizatuak.html" class="no-ch">Taula pertsonalizatuak</a></li>
+         <li><a href="erregresioa.html" class="no-ch">Erregresioa</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="estatistika_inferentziala.html" class="current-page-parent daddy">ESTATISTIKA INFERENTZIALA</a>
+   <ul>
+      <li><a href="normaltasuna_eta_doikuntzaren_egokitasuna.html" class="no-ch">Normaltasuna eta doikuntzaren egokitasuna</a></li>
+      <li><a href="konfidantzatarteak.html" class="no-ch">Konfidantza-tarteak</a></li>
+      <li><a href="hipotesi_kontrastea.html" class="no-ch">Hipotesi Kontrastea</a></li>
+      <li id="active"><a href="estadistiko_batzuk.html" class="active no-ch">Estadistiko Batzuk</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="hipotesi_kontrastea.html" class="prev"><span><span>&laquo; </span>Aurrekoa</span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Estadistiko Batzuk</h1></header>
+<article class="iDevice_wrapper ReflectionIdevice em_iDevice em_iDevice_reflection" id="id68">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Korrelazioak eta Proba Parametrikoak eta Ez-Parametrikoak</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta68_104" class="block iDevice_content">
+<p data-start="67" data-end="219">Estatistikan, aldagaien arteko erlazioak aztertzeko eta taldeak alderatzeko teknika ezberdinak daude. Jarraian, erabilienetako batzuk azalduko ditugu:</p>
+<h1 data-start="67" data-end="219"><strong data-start="226" data-end="266">Korrelazioak: Pearson eta Kendall</strong></h1>
+<ul data-start="269" data-end="814">
+<li data-start="269" data-end="566"><strong data-start="271" data-end="296">Pearsonen korrelazioa</strong>: Bi aldagaien arteko erlazio lineala neurtzen du. <strong data-start="347" data-end="375">Datu kuantitatiboetarako</strong> eta <strong data-start="380" data-end="418">banaketa normala duten kasuetarako</strong> egokia da. Balioak <strong data-start="438" data-end="450">-1 eta 1</strong> artean daude; -1 erlazio negatibo perfektua adierazten du, 1 erlazio positibo perfektua eta 0 erlazio ez dagoela.</li>
+<li data-start="567" data-end="814"><strong data-start="569" data-end="594">Kendallen korrelazioa</strong>: <strong data-start="596" data-end="619">Datu ordinaletarako</strong> edo normalitatea betetzen ez duten kasuetarako erabiltzen da. Aldagaien arteko <strong data-start="699" data-end="718">adostasun-maila</strong> ebaluatzen du, eta bereziki eraginkorra da lagin txikietan edo balio desbideratuak daudenean.Epigrafe</li>
+<li data-start="567" data-end="814"><strong>Ez-parametrikoen alternatiba</strong>:
+<ul>
+<li data-start="567" data-end="814"><strong>Spearmanen korrelazioa</strong>: Proba honek datuen mailak erabiltzen ditu jatorrizko balioen ordez, eta egokia da aldagaiek erlazio monotonikoa dutenean (ez du zertan lineala izan). Bereziki erabilgarria da datuek banaketa normalari jarraitzen ez diotenean 2.<br /><strong>Kendall-en korrelazioa (Tau)</strong>: Proba hori ere tarteetan oinarritzen da, eta bi aldagai ordinalen arteko komunztadura ebaluatzen du. Bereziki erabilgarria da laginaren tamaina txikia denean edo 5 datuetan berdinketa asko daudenean.</li>
+</ul>
+</li>
+</ul>
+<h1 data-start="816" data-end="882"><strong data-start="821" data-end="880">T-Student probak: Parametrikoak eta Ez-parametrikoak</strong></h1>
+<p data-start="883" data-end="964"><em data-start="883" data-end="894">T-Student</em> probak <strong data-start="902" data-end="945">bi taldeen batez bestekoak konparatzeko</strong> erabiltzen dira.</p>
+<ul>
+<li data-start="965" data-end="1115"><strong data-start="967" data-end="1006">T-Student lagin independenteetarako</strong>: Bi talde desberdin alderatzen ditu (adibidez, bi irakaskuntza-metodoren eragina ikasleen errendimenduan).</li>
+<li data-start="1116" data-end="1303"><strong data-start="1118" data-end="1156">T-Student lagin erlazionatuetarako</strong>: Pertsona berdinei <strong data-start="1176" data-end="1213">bi une edo baldintza ezberdinetan</strong> egindako neurketak alderatzen ditu (adibidez, interbentzio baten aurretik eta ondoren).</li>
+<li data-start="1304" data-end="1524"><strong data-start="1306" data-end="1338">Ez-parametrikoen alternatiba</strong>:
+<ul data-start="1344" data-end="1524">
+<li data-start="1344" data-end="1452"><strong data-start="1346" data-end="1370">Mann-Whitney U proba</strong>: Bi talde independenteak alderatzeko erabiltzen da normalitaterik ez dagoenean.</li>
+<li data-start="1455" data-end="1524"><strong data-start="1457" data-end="1475">Wilcoxon proba</strong>: Bi neurketa erlazionatuetarako baliokidea da.</li>
+</ul>
+</li>
+</ul>
+<h1><strong data-start="1531" data-end="1566">ANOVA: Bariazioaren Analisia</strong></h1>
+<p data-start="1569" data-end="1723"><strong data-start="1569" data-end="1578">ANOVA</strong> (Analysis of Variance) <strong data-start="1602" data-end="1665">hiru edo gehiagoren artean batez bestekoak konparatzen ditu</strong>, talde arteko eta talde barruko aldakortasuna aztertuz.</p>
+<ul data-start="1724" data-end="1978">
+<li data-start="1724" data-end="1850"><strong data-start="1726" data-end="1750">Bide bakarreko ANOVA</strong>: Faktore bakarra aztertzen du (adibidez, hiru irakaskuntza-metodoren arteko errendimendu-aldeak).</li>
+<li data-start="1851" data-end="1978"><strong data-start="1853" data-end="1885">Ez-parametrikoen alternatiba</strong>:
+<ul data-start="1891" data-end="1978">
+<li data-start="1891" data-end="1978"><strong data-start="1893" data-end="1917">Kruskal-Wallis proba</strong>: Datuak normalak ez direnean erabiltzen da ANOVAren ordez.</li>
+</ul>
+</li>
+</ul>
+<p data-start="1980" data-end="2137" data-is-last-node="" data-is-only-node="">Datuak modu eraginkorrean aztertu ahal izateko, <strong data-start="2045" data-end="2133">aldagaien ezaugarrien eta banaketaren arabera proba egokia hautatzea ezinbestekoa da</strong>. 📊</p>
+</div>
+<form name="feedback-form-68_105" action="#" onsubmit="return false" class="feedback-form">
+<div class="block iDevice_buttons feedback-button js-required">
+<p><script type="text/javascript">var feedback68_105text = "PROZEDURA";</script><input type="button" name="toggle-feedback-68_105" value="PROZEDURA" class="feedbackbutton feedback-toggler" /></p>
+</div>
+<section id="feedback-68_105" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Feedbacka</h1>
+<h1>1. Korrelazioak</h1>
+<h2 data-spm-anchor-id="2b75ac3d.3795f131.0.i30.202d485cwGeLFu"><strong>Pearson</strong></h2>
+<ul>
+<li><code class="codespan cursor-pointer">Analizar &gt; Correlaciones &gt; Bivariadas</code><br />Elkarrizketa-koadroan, hautatu aztertzeko aldagaiak.<br />Markatu "Pearson" aukera bi aldagaien arteko korrelazio lineala kalkulatzeko</li>
+</ul>
+<h3>Aukera Ez-Parametrikoak</h3>
+<h4><strong>Kendall (Tau-b)</strong></h4>
+<ul>
+<li><code class="codespan cursor-pointer">Analizar &gt; Correlaciones &gt; Bivariadas</code><br />Hautatu aldagai ordinalak edo ez-parametrikoak.<br />Markatu "Kendall's tau-b" aukera bi aldagaien arteko erlazio ordinala neurtzeko</li>
+</ul>
+<h4><strong>Spearman</strong></h4>
+<ul>
+<li><code class="codespan cursor-pointer">Analizar &gt; Correlaciones &gt; Bivariadas</code><br />Hautatu aldagai ordinalak edo ez-parametrikoak.<br />Markatu "Spearman" aukera mailen oinarritutako korrelazioa kalkulatzeko
+<div class="citation-button-text svelte-1o1w2ya"></div>
+</li>
+</ul>
+<h1><strong>2. T-Student</strong></h1>
+<h2><strong>T-Student independentzia-laginetarako</strong></h2>
+<ul>
+<li> <code class="codespan cursor-pointer">Analizar &gt; Comparar medias &gt; Prueba T para muestras independientes</code><br />Definitu aldagai dependentziak eta independenteak.<br />SPSSek bi talde independenteren batez bestekoak alderatzeko emaitzak sortuko ditu</li>
+</ul>
+<h2><strong>T-Student erlazionatutako laginetarako</strong></h2>
+<ul>
+<li><code class="codespan cursor-pointer">Analizar &gt; Comparar medias &gt; Prueba T para muestras relacionadas</code><br />Hautatu elkarrekin lotutako aldagai-pareak (adib., neurketak aurretik eta ondoren).<br />SPSSek bi neurketen arteko diferentziak garrantzitsuak diren ala ez kalkulatuko du .</li>
+</ul>
+<div class="my-2"></div>
+<h3><strong>Aukera ez-parametrikoak</strong></h3>
+<h4><strong>Mann-Whitney U</strong></h4>
+<ul>
+<li><code class="codespan cursor-pointer">Analizar &gt; Pruebas no paramétricas &gt; Cuadros de diálogo antiguos &gt; 2 muestras independientes</code><br />Hautatu aldagaiak eta definitu taldeak.<br />Markatu "Mann-Whitney U" kontraste-proba gisa bi talde independenteak alderatzeko .</li>
+</ul>
+<h4><strong>Wilcoxon</strong></h4>
+<ul>
+<li><code class="codespan cursor-pointer">Analizar &gt; Pruebas no paramétricas &gt; Cuadros de diálogo antiguos &gt; 2 muestras relacionadas</code><br />Hautatu elkarrekin lotutako aldagai-pareak.<br />SPSSek Wilcoxon proba kalkulatuko du bi neurketen arteko diferentziak alderatzeko .</li>
+</ul>
+<div class="my-2"></div>
+<h1><strong>3. ANOVA</strong></h1>
+<h2><strong>Faktore bakarreko ANOVA</strong></h2>
+<ul>
+<li><code class="codespan cursor-pointer">Analizar &gt; Comparar medias &gt; ANOVA de un factor</code><br />Definitu aldagai dependentea eta faktorea (aldagai kategorikoa independentea).<br />SPSSek hiru edo gehiago taldeen arteko batez bestekoetan diferentzia garrantzitsuak dauden kalkulatuko ditu
+<div class="citation-button-text svelte-1o1w2ya"></div>
+</li>
+</ul>
+<h3><strong>Aukera ez-parametrikoa</strong></h3>
+<h4><strong>Kruskal-Wallis</strong></h4>
+<ul>
+<li data-spm-anchor-id="2b75ac3d.3795f131.0.i29.202d485cwGeLFu"><code class="codespan cursor-pointer">Analizar &gt; Pruebas no paramétricas &gt; Cuadros de diálogo antiguos &gt; K muestras independientes</code><br /><span>Hautatu aldagaiak eta definitu taldeak.</span><br /><span>Markatu "Kruskal-Wallis H" kontraste-proba gisa, hiru edo gehiago taldeak alderatzeko datuek banaketa normala ez dutenean </span></li>
+</ul></section>
+</form>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Ondoko lizentziak babestua</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons: aitortu-PartekatuBerdin 4.0 Lizentzia</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="hipotesi_kontrastea.html" class="prev"><span><span>&laquo; </span>Aurrekoa</span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>eXeLearning-ekin egina<span> (Leiho berria)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
